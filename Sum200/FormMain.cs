@@ -1,5 +1,5 @@
 ﻿//Kayla Arns
-//September 17, 2020
+//Date: September 17, 2020
 //Chapter 5, exercise 9
 //Sum 200
 
