@@ -1,7 +1,7 @@
 ﻿//Kayla Arns
 //Date: September 17, 2020
 //Chapter 5, exercise 9
-//Sum 200
+//New Feature Sum 200 Program
 
 using System;
 using System.Collections.Generic;
@@ -24,12 +24,15 @@ namespace Sum200
         private void btnStart_Click(object sender, EventArgs e)
         {
             int sum = 0;
+            int topValue;
 
-            for(int i=0; i<= 200; i++)
+            topValue = Convert.ToInt32(txtTop.Text);
+
+            for(int i=0; i<= topValue; i++)
             {
                 sum += i;
 
-                if (i == 100)
+                if (i == topValue/2)
                 {
                     txtHalfWay.Text = Convert.ToString(sum);
                     //Console.WriteLine("i = " + i + " Sum " + sum);
