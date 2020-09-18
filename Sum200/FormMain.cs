@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Kayla Arns
+//September 17, 2020
+//Chapter 5, exercise 9
+//Sum 200
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
